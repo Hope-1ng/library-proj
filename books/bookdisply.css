@@ -1,0 +1,98 @@
+card {
+  border: none;
+  background-color: rgba(153, 153, 153, 0.151);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding-top: 0;
+  position: relative;
+  height: 100%;
+}
+
+.card img {
+  object-fit: contain;
+  height: 200px;
+}
+.card-2 img {
+  object-fit: contain;
+  height: 300px;
+  cursor: pointer;
+}
+
+.rent-button {
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 3px;
+  border: brown 3px solid;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buy-button {
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  border: green solid 3px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bi-heart {
+  color: brown;
+  top: 0;
+  right: 0;
+}
+
+.card-title-2:hover {
+  color: brown;
+}
+.card-text-2 {
+  color: brown;
+}
+
+.card-text-2:hover {
+  color: rgb(0, 0, 0);
+}
+
+.cart-numb {
+  background-color: rgb(243, 0, 0);
+  display: inline-block;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
+.fav-numb {
+  background-color: white;
+  display: inline-block;
+  color: rgb(170, 0, 0);
+  height: 9px;
+  width: 10px;
+  text-align: center;
+  border-radius: 7px;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.sort-button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 4px;
+  margin: 3px;
+  border: white 2px solid;
+  border-radius: 9px;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: black;
+}

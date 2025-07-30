@@ -1,0 +1,83 @@
+
+body{
+  
+}
+
+.add-cart {
+  background-color: brown;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px;
+  margin-top: 6px;
+}
+
+.wish-list-btn {
+  margin-top: 6px;
+  background-color: green;
+  width: 100%;
+
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px;
+
+}
+
+card {
+  border: none;
+  background-color: rgba(153, 153, 153, 0.151);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding-top: 0;
+  position: relative;
+  height: 100%;
+}
+
+.card img {
+  object-fit: contain;
+  height: 200px;
+}
+.card-2 img {
+  object-fit: contain;
+  height: 300px;
+  cursor: pointer;
+}
+
+.rent-button {
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 3px;
+  border: brown 3px solid;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.buy-button {
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  border: green solid 3px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.bi-heart {
+  color: brown;
+  top: 0;
+  right: 0;
+}
+
+.card-title-2:hover {
+  color: brown;
+}
+.card-text-2 {
+  color: brown;
+}
+
+.card-text-2:hover {
+  color: rgb(0, 0, 0);
+}
+
+
