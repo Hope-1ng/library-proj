@@ -1,5 +1,5 @@
 body {
-  background-image: url(../LOGIN/imgs/book-wallpaper-black-and-white-2560x1600.jpg);
+  background-image: url(./imgs/book-wallpaper-black-and-white-2560x1600.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,4 +33,7 @@ body {
 .container {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(8px);
+}
+span{
+  font-family: monospace;
 }
